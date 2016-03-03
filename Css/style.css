@@ -1,0 +1,91 @@
+div#MainMenu {
+  position: absolute;
+  left: 140px;
+  top: 82px;
+  border-style: groove;
+  background-image: url(../img/bgmenu3.jpg);
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  width: 148px;
+}
+.iconhome {
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+
+.iconsign {
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+
+.banner {
+  max-width: 100%;
+  max-height: 750px;
+  border-radius: 10%;
+  padding-top: 10px;
+}
+
+
+#MainMenu a {
+  display:block;
+  padding: 26px 7 14px 7px;
+  font-size: 40px;
+  Color : #CFBEBE;
+  text-decoration: none;
+  text-align: center;
+  border-style:double;
+}
+
+
+#MainMenu a:hover{
+  background-color: #BD5B64;
+  border-style:ridge;
+}
+
+.wrap {
+  max-width: 1300px;
+  margin: auto;
+}
+.hero {
+  border-radius: 10%;
+  padding: 10px;
+
+
+}
+#picture {
+  text-align: center;
+}
+
+img.hero:hover {
+  border-style:outset;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color:#33331a;
+}
+
+#back {
+  position: fixed;
+  right :30px;
+  bottom : 30px;
+}
+
+.iconback {
+  border-radius: 10%;
+}
+
+.iconback:hover{
+  border-radius: 40%;
+}
+
+#MainMenu ul {
+  position: relative;
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
